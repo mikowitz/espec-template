@@ -1,10 +1,10 @@
-defmodule Tmnt.Mixfile do
+defmodule {{MODULE_NAME}}.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :tmnt,
+    [app: {{APP_NAME}},
      version: "0.0.1",
-     elixir: "~> 0.14.3",
+     elixir: "~> {{MIX_VERSION}}",
      deps: deps]
   end
 
