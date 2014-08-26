@@ -1,4 +1,4 @@
 {{MODULE_NAME}}
-{{@title_underline}}
+{{title_underline}}
 
 ** TODO: Add description **
