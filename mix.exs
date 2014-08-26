@@ -2,9 +2,9 @@ defmodule {{MODULE_NAME}}.Mixfile do
   use Mix.Project
 
   def project do
-    [app: {{APP_NAME}},
+    [app: :{{APP_NAME}},
      version: "0.0.1",
-     elixir: "~> {{MIX_VERSION}}",
+     elixir: "~> {{MIX_VERSION_SHORT}}",
      deps: deps]
   end
 
