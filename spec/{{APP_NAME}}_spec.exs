@@ -1,4 +1,4 @@
-defmodule {{APP_NAME}}Spec do
+defmodule {{MODULE_NAME}}Spec do
   use ESpec
 
   it do: expect true |> to(be_true())
