@@ -25,6 +25,9 @@ defmodule {{MODULE_NAME}}.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:espec, "~> 1.1.0", only: :test},
+      {:mix_test_watch, "~> 0.2", only: :dev}
+    ]
   end
 end
